@@ -39,8 +39,8 @@ export default function EmailSection() {
     return (
         <section className="grid md:grid-cols-2 gap-10 my-12 py-24" id="contact">
             <div>
-                <h2 className="text-xl font-semibold md:text-left text-center mb-5">Contact Me</h2>
-                <p className="text-justify">Interested in collaborating or have questions? Feel free to contact me via LinkedIn or email. I am also active on Instagram, where you can see the latest projects. For convenience, please fill out the form on the right of this page. I will be happy to respond as quickly as possible. Thank You.</p>
+                <h2 className="text-xl font-semibold md:text-left text-center mb-5 text-white">Contact Me</h2>
+                <p className="text-justify text-white">Interested in collaborating or have questions? Feel free to contact me via LinkedIn or email. I am also active on Instagram, where you can see the latest projects. For convenience, please fill out the form on the right of this page. I will be happy to respond as quickly as possible. Thank You.</p>
                 <div className="flex flex-row mt-4 justify-center sm:justify-start gap-5">
                     <Link href={'https://github.com/AdrianIchiro'}>
                         <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="logo" width={50} className="rounded-full" />

@@ -26,7 +26,7 @@ export default function Navbar() {
     return (
         <nav className="fixed top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-90">
             <div className="flex flex-wrap items-center mx-auto justify-between px-4 py-2">
-                <Link href={'/'} className="text-2xl font-extrabold"><span className="bg-gradient-to-r from-violet-500 to-fuchsia-500 bg-clip-text text-transparent">{'{'}</span>RenDev<span className="bg-gradient-to-r from-violet-500 to-fuchsia-500 bg-clip-text text-transparent">{'}'}</span></Link>
+                <Link href={'/'} className="text-2xl font-extrabold text-white"><span className="bg-gradient-to-r from-violet-500 to-fuchsia-500 bg-clip-text text-transparent">{'{'}</span>RenDev<span className="bg-gradient-to-r from-violet-500 to-fuchsia-500 bg-clip-text text-transparent">{'}'}</span></Link>
                 <div className="md:hidden block">
                     {
                         !dropdown ? (
