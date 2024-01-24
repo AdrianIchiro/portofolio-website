@@ -67,7 +67,7 @@ export default function EmailSection() {
                         <label htmlFor="message" className="block font-medium text-sm mb-1 text-white">Message</label>
                         <textarea name="message" id="message" placeholder="Hello Lets Talk for bussines" className="w-full rounded-lg border border-[#33353F] bg-[#18191E] placeholder-[#9CA2A9] p-2.5"></textarea>
                     </div>
-                    <button type="submit" className="bg-purple-500 text-lg font-semibold py-2 rounded-md hover:bg-white hover:text-black transition-all duration-500">Submit</button>
+                    <button type="submit" className="bg-purple-500 text-lg font-semibold py-2 rounded-md hover:bg-white hover:text-black transition-all duration-500 text-white">Submit</button>
                     {
                         (load == true) ? <p>Loading...</p> : ''
                     }
