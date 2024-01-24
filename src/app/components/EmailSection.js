@@ -56,15 +56,15 @@ export default function EmailSection() {
             <div>
                 <form className="flex flex-col gap-6" onSubmit={handleSubmit}>
                     <div>
-                        <label htmlFor="email" className="block font-medium text-sm mb-1">Email:</label>
+                        <label htmlFor="email" className="block font-medium text-sm mb-1 text-white">Email:</label>
                         <input type="email" name="email" id="email" placeholder="guest@email.com" required className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] rounded-lg text-sm text-gray-100 block w-full p-2.5" />
                     </div>
                     <div>
-                        <label htmlFor="subject" className="block font-medium text-sm mb-1">Subject</label>
+                        <label htmlFor="subject" className="block font-medium text-sm mb-1 text-white">Subject</label>
                         <input type="text" name="subject" id="subject" placeholder="Dear..." required className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] rounded-lg text-sm text-gray-100 block w-full p-2.5" />
                     </div>
                     <div>
-                        <label htmlFor="message" className="block font-medium text-sm mb-1">Message</label>
+                        <label htmlFor="message" className="block font-medium text-sm mb-1 text-white">Message</label>
                         <textarea name="message" id="message" placeholder="Hello Lets Talk for bussines" className="w-full rounded-lg border border-[#33353F] bg-[#18191E] placeholder-[#9CA2A9] p-2.5"></textarea>
                     </div>
                     <button type="submit" className="bg-purple-500 text-lg font-semibold py-2 rounded-md hover:bg-white hover:text-black transition-all duration-500">Submit</button>
