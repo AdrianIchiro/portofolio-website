@@ -30,7 +30,7 @@ export default function HeroHeader() {
                             repeat={Infinity}
                         />
                     </span></h1>
-                    <p className="text-gray-500 text-lg text-justify lg:text-xl mt-5">Hello, I'm Adrian Fahren Setiawan, a web developer who loves creating interesting online experiences.</p>
+                    <p className="text-gray-500 text-lg text-justify lg:text-xl mt-5">Hello, Im Adrian Fahren Setiawan, a web developer who loves creating interesting online experiences.</p>
                     <div className="mt-5">
                         <Link href={'https://www.linkedin.com/in/adrian-fahren-setiawan-34a939278/'}><button className="px-6 py-3 rounded-full text-white sm:mr-2 mb-3 sm:w-fit w-full bg-gradient-to-r from-violet-500 to-fuchsia-500 hover:from-white hover:to-white hover:text-black transition-all duration-200">Hire Me</button></Link>
                         <button onClick={saveFile} className="px-6 py-3 rounded-full bg-transparent text-white border border-white sm:w-fit w-full hover:bg-gradient-to-tr hover:from-violet-500 hover:to-fuchsia-500 hover:bg-clip-border transition-all duration-200">Download CV</button>
