@@ -7,6 +7,7 @@ export default function ProjectSection() {
             <div className="grid lg:grid-cols-2 md:gap-12">
                 <ProjectCard urlImg={'img/project-1.png'} title={'Book Store'} desc={'Description'} url={'https://library-it-website.vercel.app/'}/>
                 <ProjectCard urlImg={'img/project-2.png'} title={'CoffeJava'} desc={'Online shop for coffee'} url={'https://website-coffejava-ahas9wwp8-adrians-projects-232e110a.vercel.app/'} />
+                <ProjectCard urlImg={'img/project-3.png'} title={'Diawise'} desc={'Online shop for coffee'} url={'https://diawise.streamlit.app/'} />
             </div>
         </section>
     )
